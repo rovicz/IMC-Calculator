@@ -18,7 +18,7 @@ body {
   -webkit-font-smoothing: antialiased;
   display: grid;
   grid-template-columns: 1fr 120px minmax(300px, 830px) 1fr;
-  font-family: 'Open Sans', sans-serif;
+  font-family: monospace, sans-serif;
 }
 
 .menu {
@@ -65,4 +65,58 @@ body {
   font-weight: 400;
   margin-bottom: 1rem;
   grid-column: 1 / 4;
+}
+
+.calculadora {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 100%;
+  margin-top: 0px;
+  transform: translateY(-50%);
+  z-index: 20;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-family: monospace;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#formulario {
+  width: 580px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px 10px 10px 10px;
+  box-shadow: 0 20px 60px 0 rgb(186 200 227 / 10%), 0 16px 36px 10px rgb(186 200 227 / 30%);
+}
+
+label, input {
+  display: block;
+    width: 100%;
+    outline: none !important;
+    margin-bottom: 15px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#calcular {
+  height: 30px;
+  background: white;
+  font-family: monospace;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: bold;
 }
