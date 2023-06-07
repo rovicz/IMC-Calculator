@@ -1,6 +1,6 @@
 # IMC-Calculator by Victor F.
 
-Responsive Version not available. Will be Soon.
+bad code, fixing in a few weeks.
 
 Simple design just using HTML, CSS and JavaScript. Subject to changes for better optimization and functioning of the website.
 
