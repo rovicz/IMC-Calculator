@@ -1,3 +1,5 @@
+/* Reset */
+
 body,
 h1,
 h2,
@@ -33,6 +35,30 @@ img {
   .container {
     flex-direction: column;
     max-width: 340px;
+  }
+}
+
+/* Header */
+
+.header {
+  background-color: #222;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+.header-item ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.header-item a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 739px) {
+  .header {
+    margin-bottom: 60px;
   }
 }
 
@@ -86,22 +112,4 @@ input {
 
 .result strong {
   color: #222;
-}
-
-/* Footer */
-
-.header {
-  background-color: #222;
-  padding: 20px;
-  margin-bottom: 120px;
-}
-
-.header-item ul li {
-  text-decoration: none;
-  list-style: none;
-}
-
-.header-item a {
-  color: white;
-  text-decoration: none;
 }
