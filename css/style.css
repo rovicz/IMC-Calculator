@@ -56,6 +56,12 @@ img {
   text-decoration: none;
 }
 
+@media (max-width: 739px) {
+  .header {
+    margin-bottom: 60px;
+  }
+}
+
 /* Form */
 
 .form-title h1 {
