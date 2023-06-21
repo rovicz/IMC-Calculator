@@ -88,6 +88,11 @@ input {
   color: #222;
 }
 
+@media(max-width: 739px) {
+  .form-title h1 {
+    margin-bottom: 30px;
+}
+
 /* Footer */
 
 .header {
