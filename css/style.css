@@ -93,7 +93,7 @@ input {
     margin-bottom: 30px;
 }
 
-/* Footer */
+/* Header */
 
 .header {
   background-color: #222;
@@ -109,4 +109,10 @@ input {
 .header-item a {
   color: white;
   text-decoration: none;
+}
+
+@media (max-width: 739px) {
+   .header {
+     margin-bottom: 60px;
+ }
 }
