@@ -16,29 +16,32 @@
 
 <body>
 
+
+  <header class="header">
+    <div class=" header-item container">
+      <ul>
+        <li><a target="_blank" href="https://github.com/rovicz">Dev →</a></li>
+      </ul>
+    </div>
+  </header>
+
   <!-- Menu -->
 
-  <nav class="menu">
-    <ul>
-      <li><a href="#calculadora">Calculadora</a></li>
-      <li><a target="_blank" href="https://github.com/rovicz">Dev →</a></li>
-    </ul>
-  </nav>
-
-  <section class="grid-section">
+  <section class="form-title">
     <h1 class="titulo">Calculadora de IMC.</h1>
   </section>
 
+
   <section class="calculadora">
-    <div class="form">
+    <div class="form container">
       <form id="formulario">
         <h2>Calcule seu IMC.</h1>
 
           <label for="altura">Altura</label>
-          <input type="number" step=".01" id="altura" name="altura" placeholder="Insira sua Altura" required>
+          <input type="number" step=".01" id="altura" name="altura" placeholder="Insira sua Altura (Exemplo: 1.80)" required>
 
           <label for="peso">Peso</label>
-          <input type="number" step=".01" id="peso" name="peso" placeholder="Insira seu Peso" required>
+          <input type="number" step=".01" id="peso" name="peso" placeholder="Insira seu Peso (Exemplo: 60)" required>
 
           <button type="submit" id="calcular">Calcular meu IMC</button>
 
@@ -47,10 +50,6 @@
       </form>
     </div>
   </section>
-
-  <!-- ------------------------------------ -->
-
-  <section></section>
 
   <script src="./js/script.js"></script>
 
