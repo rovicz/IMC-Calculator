@@ -142,5 +142,6 @@ input {
 }
 
 .result strong {
-  color: #222;
+  color: #8cbeb2;
+  font-weight: bold;
 }
