@@ -110,6 +110,7 @@ input {
 input {
   border: 3px solid #8cbeb2;
   padding: 5px;
+  border-radius: 5px;
 }
 
 #formulario h2 {
