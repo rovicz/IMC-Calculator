@@ -88,11 +88,11 @@ img {
 }
 
 .form {
-  background: #fff;
+  background: #14140f;
   width: 560px;
   padding: 20px;
   flex-direction: column;
-  border: 3px solid #8cbeb2;
+  border: 3px solid #f26800;
   border-radius: 5px;
 }
 
@@ -108,19 +108,25 @@ input {
 }
 
 input {
-  border: 3px solid #8cbeb2;
+  border: 2px solid #f26800;
   padding: 5px;
   border-radius: 5px;
+}
+
+input::placeholder {
+  color: #000;
 }
 
 #formulario h2 {
   margin-bottom: 30px;
   font-size: 2.25em;
+  color: #fff;
 }
 
 #formulario label {
   font-size: 1.25em;
   font-weight: bold;
+  color: #fff;
 }
 
 #calcular {
@@ -129,20 +135,25 @@ input {
   height: 40px;
   background: white;
   border-radius: 5px;
-  border: 3px solid #8cbeb2;
+  border: 2px solid #f26800;
   font-family: Georgia, monospace;
   margin: 10px 0 40px 0;
   cursor: pointer;
+  font-weight: bold;
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 #calcular:hover {
-  box-shadow: inset 160px 0 0 0 #8cbeb2;
+  box-shadow: inset 160px 0 0 0 #f26800;
   color: #fff;
   border-radius: 3px;
 }
 
+.result span {
+  color: #fff;
+}
+
 .result strong {
-  color: #8cbeb2;
+  color: #f26800;
   font-weight: bold;
 }
